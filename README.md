@@ -1,14 +1,14 @@
 # Move-Full-Git-Repository
-How to move a full Git repository
+---How to move a full Git repository---
 
-git clone --mirror <old-repo URI> temp-folder
+Step 1: git clone --mirror <old-repo URI> temp-folder
 
-cd temp-folder
+Step 2: cd temp-folder
 
-git remote rm origin
+Step 3: git remote rm origin
 
-git remote add origin <new-repo URL>
+Step 4: git remote add origin <new-repo URL>
 
-git push origin --all
+Step 5: git push origin --all
 
-git push --tags
+Step 6: git push --tags
